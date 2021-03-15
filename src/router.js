@@ -13,6 +13,7 @@ const RouterPath = () => {
   return (
     <Switch>
       <Route path="/" exact={true} component={HomePage} />
+      <Route path="/home" component={HomePage} />
       <Route path="/noticia" component={Noticia} />
       <Route path="*" component={Page404} />
     </Switch>
